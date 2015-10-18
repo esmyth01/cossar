@@ -1,7 +1,112 @@
 @charset "UTF-8";
+/*
+Theme Name: evergreen-cycles
+Theme URI: http://52.88.123.0
+Author: Evan Smyth, Kimberly Stewart, Nectar Shakir, Brian Baker
+Author URI: http://52.88.123.0
+Description: This is the theme for our itc210 wordpress course at Seattle Central College
+Version: 1.0
+*/
 
 
 * {
   padding: 0;
   margin: 0;
 }
+
+
+/*Begin Nav*/
+
+
+div.menu-main-container {
+	max-width: auto;
+	margin: 0px auto;
+	background-color:#698F69;
+	height:50px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#menu-main {
+	text-align: center;
+	overflow: hidden;
+	height:50px;
+}
+
+#menu-main > li {
+
+	font-size: 1.125em;
+	display: inline-block;
+	list-style-type: none;
+	height:50px;
+}
+#menu-main > li a {
+
+	text-decoration:none;
+}
+
+#menu-main > li a.current {
+  background:#EEF2DC;
+  color:#698F69;
+	border-radius:10px;
+}
+
+#menu-main ul li:hover {
+	height:50px;
+	border-radius:10px 10px 0 0;
+
+}
+#menu-main ul li a:hover
+{
+	background-color:#EEF2DC;
+	color:#698F69;
+	height:30px;
+
+
+}
+
+#menu-main > li a {
+	display: block;
+	color: #EEF2DC;
+	padding: 14.5px 30px;
+
+}
+#menu-main > li a:hover {
+
+	background-color:#EEF2DC;
+	color:#698F69;
+	border-radius:10px;
+}
+
+
+#menu-main ul.sub-menu {
+	text-align: left;
+	position: absolute;
+	display: none;
+	background-color: rgba(105,143,105,0.8);
+	z-index: 20;
+	border-radius:10px;
+}
+
+#menu-main ul.sub-menu li {
+	display: block;
+	float: none;
+	font-size: 1em;
+}
+
+#menu-main ul.sub-menu li a {
+
+}
+
+
+
+#menu-main li:hover > ul.sub-menu{
+	display: block;
+	margin: 0;
+	border-radius:10px;
+}
+
+
+/*End Nav*/
