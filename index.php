@@ -1,19 +1,16 @@
-<!doctype html>
+<?php
+/**
+ * This the basic file for displaying pages.
+ *
+ * index.php
+ */
+
+get_header(); ?>
 
 
-<head>
-  <meta charset="utf-8">
 
-  <title>CoSSaR</title>
+  <h2>This is an index page</h2>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
 
-<body>
-
-</body>
-</html>
+<?php get_footer(); ?>

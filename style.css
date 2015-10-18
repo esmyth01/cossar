@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
 Theme Name: cossar
-Theme URI: http://52.88.123.0
+Theme URI: http://52.88.123.0/themes/cossar
 Author: Evan Smyth, Kimberly Stewart, Nectar Shakir, Brian Baker
 Author URI: http://52.88.123.0
 Description: This is the theme for our itc210 wordpress course at Seattle Central College
@@ -9,11 +9,25 @@ Version: 1.0
 */
 
 
+
+
 * {
   padding: 0;
   margin: 0;
 }
 
+#wrapper {
+	width:60%;
+	margin:auto;
+	background:blue;
+}
+
+#main-content {
+  width: 100%;
+  height: 1000px;
+  background: gray;
+
+}
 
 /*Begin Nav*/
 
