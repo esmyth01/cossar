@@ -2,10 +2,24 @@
 /*
 Theme Name: cossar
 Theme URI: http://52.88.123.0/themes/cossar
-Author: Evan Smyth, Kimberly Stewart, Nectar Shakir, Brian Baker
+Author: Evan Smyth, Kim Stewart, Nectar Shakir, Brian Baker
 Author URI: http://52.88.123.0
 Description: This is the theme for our itc210 wordpress course at Seattle Central College
 Version: 1.0
+
+Plugins used:
+  Social Media and Share Icons (Ultimate Social Media) - https://wordpress.org/plugins/ultimate-social-media-icons/
+    Used for Facebook, Twitter, and RSS icons
+    When clicked, view Facebook or Twitter, subscribe to RSS
+
+  Simple Membership - https://wordpress.org/plugins/simple-membership/
+    Used to protect content behind a membership login
+    Used here to restrict access to certain content to speficic users only
+    
+  Contact Form 7 - https://wordpress.org/plugins/contact-form-7/  
+    Manage multiple contact forms, supports CAPTCHA and Akismet spam filtering
+    Used to provide a contact form
+
 */
 
 
