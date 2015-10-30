@@ -145,3 +145,53 @@ div.menu-main-container {
 
 
 /*End Nav*/
+
+
+/* Start main section */
+section {
+	background-color:#F2F4F2;
+	margin-top:2%;
+	margin-bottom:2%;
+  border-radius:5px;
+	width:65.957446%;
+	float:left;
+	}
+
+
+/* End main section */
+
+/* Start sidebar */
+div#sub-navigation {
+	background-color:#B6C3CD;
+	margin-top:2%;
+	width:31.914893%;
+	float:right;
+	margin-bottom:2%;
+	border-radius:5px;
+}
+
+h3.sub-navigation-title {
+	font-size:1.3em;
+	text-align:center;
+	color:#085e08;
+	margin-bottom:5%;
+	text-decoration:underline;
+}
+#sub-navigation ul {
+	list-style:none;
+	font-size:1em;
+	text-align:center;
+}
+#sub-navigation ul li {
+	line-height:1.2em;
+	margin-bottom:5%;
+	margin-left:2%;
+	margin-right:2%;
+
+
+}
+
+
+
+
+/* End sidebar */
