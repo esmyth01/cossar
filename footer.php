@@ -2,6 +2,8 @@
 
 <footer>
 
+    <p> COSSAR &copy; 2015</p>
+    
 </footer>
 
 </div><!--end wrapper-->
