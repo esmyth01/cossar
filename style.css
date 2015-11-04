@@ -38,17 +38,17 @@ Plugins used:
 }
 
 #wrapper {
-	width:60%;
-	margin:auto;
-	background:blue;
+	width: 1024px;
+	margin: auto;
+	background: blue;
 }
 
 #main-content {
   width: 100%;
-  height: 1000px;
   background: gray;
 
 }
+
 
 /*Begin Nav*/
 
@@ -56,8 +56,8 @@ Plugins used:
 div.menu-main-container {
 	max-width: auto;
 	margin: 0px auto;
-	background-color:#698F69;
-	height:50px;
+	background-color: #698F69;
+	height: 50px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -67,7 +67,7 @@ div.menu-main-container {
 #menu-main {
 	text-align: center;
 	overflow: hidden;
-	height:50px;
+	height: 50px;
 }
 
 #menu-main > li {
@@ -75,57 +75,63 @@ div.menu-main-container {
 	font-size: 1.125em;
 	display: inline-block;
 	list-style-type: none;
-	height:50px;
+	height: 50px;
 }
+
 #menu-main > li a {
 
-	text-decoration:none;
+	text-decoration: none;
 }
 
 #menu-main > li a.current {
-  background:#EEF2DC;
-  color:#698F69;
-	border-radius:10px;
+  background: #EEF2DC;
+  color: #698F69;
+	border-radius: 10px;
 }
 
 #menu-main ul li:hover {
-	height:50px;
-	border-radius:10px 10px 0 0;
+	height: 50px;
+	border-radius: 10px 10px 0 0;
 
 }
-#menu-main ul li a:hover
-{
-	background-color:#EEF2DC;
-	color:#698F69;
-	height:30px;
+
+#menu-main ul li a:hover{
+
+  background-color: #EEF2DC;
+	color: #698F69;
+	height: 30px;
 
 
 }
 
 #menu-main > li a {
-	display: block;
+
+  display: block;
 	color: #EEF2DC;
 	padding: 14.5px 30px;
 
 }
+
 #menu-main > li a:hover {
 
-	background-color:#EEF2DC;
-	color:#698F69;
-	border-radius:10px;
+	background-color: #EEF2DC;
+	color: #698F69;
+	border-radius: 10px;
 }
 
 
 #menu-main ul.sub-menu {
-	text-align: left;
+
+  text-align: left;
 	position: absolute;
 	display: none;
 	background-color: rgba(105,143,105,0.8);
 	z-index: 20;
-	border-radius:10px;
+	border-radius: 10px;
 }
 
 #menu-main ul.sub-menu li {
+
 	display: block;
 	float: none;
 	font-size: 1em;
@@ -138,55 +144,77 @@ div.menu-main-container {
 
 
 #menu-main li:hover > ul.sub-menu{
-	display: block;
+
+  display: block;
 	margin: 0;
-	border-radius:10px;
+	border-radius: 10px;
 }
 
 
 /*End Nav*/
 
+/* Start flexslider */
+
+#flexslider {
+
+  width: 100%;
+  height: 400px;
+  background: blue;
+
+
+}
+
+
+
+/* End flexslider */
+
 
 /* Start main section */
+
 section {
-	background-color:#F2F4F2;
-	margin-top:2%;
-	margin-bottom:2%;
-  border-radius:5px;
-	width:65.957446%;
-	float:left;
+	background-color: #F2F4F2;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  border-radius: 5px;
+	width: 69%;
+	float: left;
 	}
 
 
 /* End main section */
 
 /* Start sidebar */
+
 div#sub-navigation {
-	background-color:#B6C3CD;
-	margin-top:2%;
-	width:31.914893%;
-	float:right;
-	margin-bottom:2%;
-	border-radius:5px;
+	background-color: #B6C3CD;
+	margin-top: 2%;
+	width: 31.914893%;
+	float: right;
+	margin-bottom: 2%;
+	border-radius: 5px;
 }
 
 h3.sub-navigation-title {
-	font-size:1.3em;
-	text-align:center;
-	color:#085e08;
-	margin-bottom:5%;
-	text-decoration:underline;
+
+  font-size: 1.3em;
+	text-align: center;
+	color: #085e08;
+	margin-bottom: 5%;
+	text-decoration: underline;
 }
+
 #sub-navigation ul {
-	list-style:none;
-	font-size:1em;
-	text-align:center;
+
+  list-style: none;
+	font-size: 1em;
+	text-align: center;
 }
 #sub-navigation ul li {
-	line-height:1.2em;
-	margin-bottom:5%;
-	margin-left:2%;
-	margin-right:2%;
+
+  line-height: 1.2em;
+	margin-bottom: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
 
 
 }
@@ -195,3 +223,94 @@ h3.sub-navigation-title {
 
 
 /* End sidebar */
+
+
+/* Start homepage sidebar */
+#homepage-sidebar {
+
+  float: right;
+  width: 29.5%;
+  margin-top: 20px;
+  background: gray;
+
+}
+
+#homepage-sidebar ul {
+
+  list-style: none;
+  font-size: 1em;
+  text-align: center;
+
+}
+
+#home-widget-item {
+
+  background: cyan;
+  height: 300px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+#home-social {
+
+  background: brown;
+  height: 100px;
+  margin-top: 20px;
+
+}
+
+
+/* End homepage sidebar */
+
+/* Start home cta */
+#home-cta {
+
+  width: 100%;
+  height: 300px;
+  background: yellow;
+  margin-top: 20px;
+
+
+}
+
+
+
+
+/* End home cta */
+
+/* Start home projects */
+#home-projects {
+
+  width: 100%;
+  height: 300px;
+  background: purple;
+  margin-top: 20px;
+
+}
+
+/* End home projects */
+
+
+/* Start home director */
+
+#home-director {
+
+  width: 100%;
+  height: 300px;
+  background: pink;
+  margin-top: 20px;
+
+}
+
+/* End home director */
+
+/* Start footer */
+
+footer {
+
+  clear: both;
+  background: green;
+}
+
+/* End footer */
