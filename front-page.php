@@ -29,8 +29,6 @@
 
     </div>
 
-
-
   </div>
 
   <div id="home-projects">
@@ -83,7 +81,7 @@
 
 
 
-</div>
+
 
 
 

@@ -1,11 +1,11 @@
 </div><!--end main-content-->
 
 <footer>
-     
+
 
 <!-- add navigation to page -->
 
-<nav>
+<div id="footer-nav">
 
 <ul>
 <h5>SITEMAP</h5>
@@ -16,17 +16,16 @@
     <li><a href=" http://52.88.123.0/index.php/publications/">Publications</a></li>
     <li><a href=" http://52.88.123.0/index.php/blog/">Blog</a></li>
     <li><a href=" http://52.88.123.0/index.php/contact/">Contact</a></li>
-</ul>    
-<ul>
-<h5>LEGAL</h5> 
-    <li>Terms and Conditions</li>
-    <li>Privacy Policy</li>
-</ul>    
+</ul>
 
-</nav>
 
-    <p> COSSAR &copy; 2015</p>
-    
+</div>
+
+  <div id="footer-affiliates">
+    <h3>Affiliates</h3>
+
+  </div>
+
 </footer>
 
 </div><!--end wrapper-->
