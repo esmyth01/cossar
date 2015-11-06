@@ -17,7 +17,11 @@ Version: 1.0
   //Enable excerpt on pages
   add_post_type_support('page', 'excerpt');
 
-  //End menu function
+  //Enable featured images on pages
+
+add_theme_support( 'post-thumbnails' );
+
+
 
   // get title tag
   function get_my_title_tag() {

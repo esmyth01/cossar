@@ -56,8 +56,8 @@
   </div>
 
   <div id="home-director">
-      <img src="<?php bloginfo('template_directory'); ?>/images/home-director.png" alt="cat placeholder" class="home-director-image"/>
-  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <img src="<?php bloginfo('template_directory'); ?>/images/home-director.png" alt="cat placeholder" class="home-director-image"/>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
   </div>
 
@@ -82,17 +82,29 @@
       <?php query_posts('showposts=4'); ?>
       <?php while (have_posts()) : the_post(); ?>
         <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-      <?php endwhile; ?>
-    </ul>
+
+        <?php if (has_post_thumbnail($page_id)){
+          echo get_the_post_thumbnail(
+          $page_id,
+          array(280,140),
+          array('class' => 'post_thumbnail')
+        );
+      }
+      ?>
+
+      <?php the_excerpt(); ?>
+
+    <?php endwhile; ?>
+  </ul>
 
 
-  </div>
+</div>
 
-  <div id="home-social">
-    <h3>Social Media</h3>
+<div id="home-social">
+  <h3>Social Media</h3>
 
 
-  </div>
+</div>
 
 
 </div>
