@@ -8,23 +8,23 @@ Description: This is the theme for our itc210 wordpress course at Seattle Centra
 Version: 1.0
 
 Plugins used:
-  Social Media and Share Icons (Ultimate Social Media) - https://wordpress.org/plugins/ultimate-social-media-icons/
-    Used for Facebook, Twitter, and RSS icons
-    When clicked, view Facebook or Twitter, subscribe to RSS
+Social Media and Share Icons (Ultimate Social Media) - https://wordpress.org/plugins/ultimate-social-media-icons/
+Used for Facebook, Twitter, and RSS icons
+When clicked, view Facebook or Twitter, subscribe to RSS
 
-  Simple Membership - https://wordpress.org/plugins/simple-membership/
-    Used to protect content behind a membership login
-    Used here to restrict access to certain content to speficic users only
+Simple Membership - https://wordpress.org/plugins/simple-membership/
+Used to protect content behind a membership login
+Used here to restrict access to certain content to speficic users only
 
-  Contact Form 7 - https://wordpress.org/plugins/contact-form-7/
-    Manage multiple contact forms, supports CAPTCHA and Akismet spam filtering
-    Used to provide a contact form
+Contact Form 7 - https://wordpress.org/plugins/contact-form-7/
+Manage multiple contact forms, supports CAPTCHA and Akismet spam filtering
+Used to provide a contact form
 
-  Breadcrumbs - https://wordpress.org/plugins/breadcrumb-navxt/
-    Makes it easy to navigate back to previous pages
+Breadcrumbs - https://wordpress.org/plugins/breadcrumb-navxt/
+Makes it easy to navigate back to previous pages
 
-  Flexslider - https://wordpress.org/plugins/ml-slider/
-    A versatile flexslider that displays a rotating slide show of images on the front page
+Flexslider - https://wordpress.org/plugins/ml-slider/
+A versatile flexslider that displays a rotating slide show of images on the front page
 
 
 */
@@ -38,9 +38,9 @@ Plugins used:
 }
 
 #wrapper {
-	width: 1024px;
-	margin: auto;
-	background: blue;
+  width: 1024px;
+  margin: auto;
+  background: blue;
 }
 
 #main-content {
@@ -54,52 +54,52 @@ Plugins used:
 
 
 div.menu-main-container {
-	max-width: auto;
-	margin: 0px auto;
-	background-color: #698F69;
-	height: 50px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+  max-width: auto;
+  margin: 0px auto;
+  background-color: #698F69;
+  height: 50px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #menu-main {
-	text-align: center;
-	overflow: hidden;
-	height: 50px;
+  text-align: center;
+  overflow: hidden;
+  height: 50px;
 }
 
 #menu-main > li {
 
-	font-size: 1.125em;
-	display: inline-block;
-	list-style-type: none;
-	height: 50px;
+  font-size: 1.125em;
+  display: inline-block;
+  list-style-type: none;
+  height: 50px;
 }
 
 #menu-main > li a {
 
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #menu-main > li a.current {
   background: #EEF2DC;
   color: #698F69;
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 #menu-main ul li:hover {
-	height: 50px;
-	border-radius: 10px 10px 0 0;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
 
 }
 
 #menu-main ul li a:hover{
 
   background-color: #EEF2DC;
-	color: #698F69;
-	height: 30px;
+  color: #698F69;
+  height: 30px;
 
 
 }
@@ -107,34 +107,34 @@ div.menu-main-container {
 #menu-main > li a {
 
   display: block;
-	color: #EEF2DC;
-	padding: 14.5px 30px;
+  color: #EEF2DC;
+  padding: 14.5px 30px;
 
 }
 
 #menu-main > li a:hover {
 
-	background-color: #EEF2DC;
-	color: #698F69;
-	border-radius: 10px;
+  background-color: #EEF2DC;
+  color: #698F69;
+  border-radius: 10px;
 }
 
 
 #menu-main ul.sub-menu {
 
   text-align: left;
-	position: absolute;
-	display: none;
-	background-color: rgba(105,143,105,0.8);
-	z-index: 20;
-	border-radius: 10px;
+  position: absolute;
+  display: none;
+  background-color: rgba(105,143,105,0.8);
+  z-index: 20;
+  border-radius: 10px;
 }
 
 #menu-main ul.sub-menu li {
 
-	display: block;
-	float: none;
-	font-size: 1em;
+  display: block;
+  float: none;
+  font-size: 1em;
 }
 
 #menu-main ul.sub-menu li a {
@@ -146,8 +146,8 @@ div.menu-main-container {
 #menu-main li:hover > ul.sub-menu{
 
   display: block;
-	margin: 0;
-	border-radius: 10px;
+  margin: 0;
+  border-radius: 10px;
 }
 
 
@@ -173,13 +173,13 @@ div.menu-main-container {
 
 section {
 
-	background-color: #F2F4F2;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  background-color: #F2F4F2;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
-	width: 69%;
-	float: left;
-	}
+  width: 69%;
+  float: left;
+}
 
 
 /* End main section */
@@ -189,34 +189,34 @@ section {
 div#sub-navigation {
 
   background-color: #B6C3CD;
-	margin-top: 2%;
-	width: 29.5%;
-	float: right;
-	margin-bottom: 2%;
-	border-radius: 5px;
+  margin-top: 2%;
+  width: 29.5%;
+  float: right;
+  margin-bottom: 2%;
+  border-radius: 5px;
 }
 
 h3.sub-navigation-title {
 
   font-size: 1.3em;
-	text-align: center;
-	color: #085e08;
-	margin-bottom: 5%;
-	text-decoration: underline;
+  text-align: center;
+  color: #085e08;
+  margin-bottom: 5%;
+  text-decoration: underline;
 }
 
 #sub-navigation ul {
 
   list-style: none;
-	font-size: 1em;
-	text-align: center;
+  font-size: 1em;
+  text-align: center;
 }
 #sub-navigation ul li {
 
   line-height: 1.2em;
-	margin-bottom: 5%;
-	margin-left: 2%;
-	margin-right: 2%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 
 
 }
@@ -276,6 +276,35 @@ h3.sub-navigation-title {
 
 }
 
+.home-cta-content {
+
+  width: 32%;
+  height: 300px;
+  background: maroon;
+  float: left;
+
+}
+
+.home-cta-content p {
+
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+
+.home-cta-content:nth-child(n+2):nth-child(-n+3) {
+
+  margin-left: 2%;
+
+}
+
+.home-cta-image {
+
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
 
 
 
@@ -291,6 +320,36 @@ h3.sub-navigation-title {
 
 }
 
+.home-projects-content {
+
+  float: left;
+  width: 48%;
+  height: 300px;
+  background: tan;
+
+}
+
+.home-projects-content:nth-child(2) {
+
+  margin-left: 4%;
+
+}
+
+.home-projects-content p {
+
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.home-projects-image {
+
+  display: block;
+  margin: auto;
+
+}
+
+
 /* End home projects */
 
 
@@ -304,6 +363,23 @@ h3.sub-navigation-title {
   margin-top: 20px;
 
 }
+
+.home-director-image {
+
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+#home-director p {
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
 
 /* End home director */
 
