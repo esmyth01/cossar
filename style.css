@@ -389,6 +389,7 @@ footer {
   clear: both;
   background: green;
   height: 250px;
+ 
 }
 
 #footer-nav {
@@ -396,8 +397,13 @@ footer {
   background: purple;
   width: 25%;
   float: left;
-
+     
+  
 }
+
+/* remove bullets from list WP */
+li.menu-item {list-style-type: none;} 
+
 
 #footer-affiliates {
 
