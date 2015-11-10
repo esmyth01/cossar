@@ -3,38 +3,45 @@
 <footer>
 
 
-<!-- add navigation to page -->
+<!-- add navigation to footer -->
+
 
 <div id="footer-nav">
 
-<ul>
-<h5>SITEMAP</h5>
-<li>HOME</li>
-    <li><a href=" http://52.88.123.0/index.php/about/">About</a></li>
-    <li><a href=" http://52.88.123.0/index.php/services/">Services</a></li>
-    <li><a href=" http://52.88.123.0/index.php/projects/">Projects</a></li>
-    <li><a href=" http://52.88.123.0/index.php/publications/">Publications</a></li>
-    <li><a href=" http://52.88.123.0/index.php/blog/">Blog</a></li>
-    <li><a href=" http://52.88.123.0/index.php/contact/">Contact</a></li>
-</ul>
+    <h4>SITEMAP</h4>
 
+    <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 
 </div>
+
 
   <div id="footer-affiliates">
 
     <h3>Affiliates</h3>
 
+<div id="footer-affiliates">
+
+    <h3>AFFILIATES</h3>
+
+    <p>Terms &amp; Conditions</p>
+    <p>Privacy Policy</p>
+
+    <br/><h3>LEGAL</h3>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <p>&copy;2015 CoSSar</p>
+
+
+
   </div>
+
+
+
 
 </footer>
 
 </div><!--end wrapper-->
 
 <?php wp_footer()?>
-
-</body>
-
-
-
-</html>

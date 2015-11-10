@@ -11,8 +11,12 @@ Version: 1.0
 
 //Register my menus
 
-  register_nav_menus(array('main-menu' => __('Main'),
+  register_nav_menus(array('main-menu' => __('Main'), 'footer-menu' => __( 'Footer Menu' ),
   ));
+
+ 
+
+
 
   //Enable excerpt on pages
   add_post_type_support('page', 'excerpt');
