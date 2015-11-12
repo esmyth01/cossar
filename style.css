@@ -420,3 +420,43 @@ li.menu-item {
 
 
 /* End footer */
+
+
+@media all and (min-width: 320px) and (max-width: 667px) {
+
+
+
+
+  #wrapper, section, #home-cta, .home-cta-content, #home-projects, .home-projects-content, #home-director, #footer-nav, #footer-affiliates {
+
+    float: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+
+
+  }
+
+  div#sub-navigation, #homepage-sidebar  {
+
+    display: none;
+
+  }
+
+  .home-cta-content:nth-child(n+2):nth-child(-n+3) {
+
+    margin: 0;
+
+  }
+
+
+
+  .home-projects-content:nth-child(2) {
+
+    margin: 0;
+
+  }
+
+}
+
