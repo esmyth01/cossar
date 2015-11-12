@@ -15,10 +15,6 @@
 </div>
 
 
-  <div id="footer-affiliates">
-
-    <h3>Affiliates</h3>
-
 <div id="footer-affiliates">
 
     <h3>AFFILIATES</h3>
