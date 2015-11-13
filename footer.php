@@ -15,9 +15,7 @@
 </div>
 
 
-  <div id="footer-affiliates">
 
-    <h3>Affiliates</h3>
 
 <div id="footer-affiliates">
 
@@ -42,6 +40,38 @@
 
 </footer>
 
-</div><!--end wrapper-->
-
 <?php wp_footer()?>
+
+</div><!--end wrapper-->
+<script>
+
+
+	window.onload = function() {
+
+
+		jQuery(".jquery-title").click(function() {
+			jQuery(".menu-main-container").slideToggle();
+			return false;
+		});
+
+
+		jQuery(window).resize(function(){
+
+			if (jQuery(window).width() > 667) {
+				jQuery(".menu-main-container").css('display', 'block');
+			}
+
+			if (jQuery(window).width() < 667) {
+				jQuery(".menu-main-container").css('display', 'none');
+			}
+		});
+
+	};
+
+
+	</script>
+
+
+</body>
+
+</html>

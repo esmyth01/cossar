@@ -36,8 +36,14 @@
 </header>
 
 
+<div class="jquery-nav">
+				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/mobile-nav-cat.png"></div></a></h4>
+				<?php wp_nav_menu(); ?>
+			</div>
 
 
-<?php wp_nav_menu(); ?>
+
+
+
 
 <div id="main-content">
