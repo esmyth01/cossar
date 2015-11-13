@@ -280,6 +280,27 @@ h3.sub-navigation-title {
 
 /* End homepage sidebar */
 
+/* Mobile gateway nav */
+#mobile-nav-div {
+
+  display: none;
+
+
+}
+
+#mobile-nav-div ul {
+
+  list-style: none;
+
+
+}
+
+
+/* End gateway nav */
+
+
+
+
 /* Start home cta */
 #home-cta {
 
@@ -417,7 +438,7 @@ li.menu-item {
 
 /* End footer */
 
-<<<<<<< HEAD
+
 /* Start Media Queries */
 
 
@@ -569,6 +590,11 @@ div.menu-icon img {
 
   display: none
 
+}
+
+#mobile-nav-div {
+
+  display: inherit !important;
 }
 
 

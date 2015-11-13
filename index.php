@@ -32,6 +32,8 @@ in <?php the_category(', '); ?>
 </article>
 <?php endwhile; endif;  //end loop?>
 
+
+
 </section>
 
 <aside>

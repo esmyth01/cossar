@@ -20,6 +20,22 @@ get_header(); ?>
 
 
 <?php endwhile; endif;  //end loop?>
+<div id="mobile-nav-div">
+
+<ul class="sub-navigation-mobile"><?php
+
+if ($post->post_parent) {
+  wp_list_pages(array('child_of' => $post->post_parent, 'title_li' => __('')));
+
+} else {
+
+  wp_list_pages(array('child_of' => $post->ID, 'title_li' => __('')));
+
+}
+?></ul>
+</div>
+
+
 </section>
 
 <aside>
