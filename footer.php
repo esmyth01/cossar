@@ -16,7 +16,6 @@
 
 
 
-
 <div id="footer-affiliates">
 
     <h3>AFFILIATES</h3>
