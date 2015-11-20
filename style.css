@@ -40,12 +40,16 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 #wrapper {
   width: 1024px;
   margin: auto;
-  background: blue;
 }
 
 #main-content {
   width: 100%;
-  background: gray;
+
+}
+
+header {
+width: 100%;
+background: #2995C1;
 
 }
 
@@ -56,7 +60,7 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 div.menu-main-container {
   max-width: auto;
   margin: 0px auto;
-  background-color: #698F69;
+  background-color: #1D4272;
   height: 50px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -86,19 +90,17 @@ div.menu-main-container {
 #menu-main > li a.current {
   background: #EEF2DC;
   color: #698F69;
-  border-radius: 10px;
 }
 
 #menu-main ul li:hover {
   height: 50px;
-  border-radius: 10px 10px 0 0;
 
 }
 
 #menu-main ul li a:hover{
 
   background-color: #EEF2DC;
-  color: #698F69;
+  color: #2995C1;
   height: 30px;
 
 
@@ -114,9 +116,8 @@ div.menu-main-container {
 
 #menu-main > li a:hover {
 
-  background-color: #EEF2DC;
-  color: #698F69;
-  border-radius: 10px;
+  background: #EEF2DC;
+  color: #2995C1;
 }
 
 
@@ -125,9 +126,8 @@ div.menu-main-container {
   text-align: left;
   position: absolute;
   display: none;
-  background-color: rgba(105,143,105,0.8);
+  background-color: rgba(29,66,114,0.8);
   z-index: 20;
-  border-radius: 10px;
 }
 
 #menu-main ul.sub-menu li {
@@ -147,7 +147,6 @@ div.menu-main-container {
 
   display: block;
   margin: 0;
-  border-radius: 10px;
 }
 
 
@@ -174,8 +173,6 @@ div.menu-main-container {
 #flexslider {
 
   width: 100%;
-  height: 400px;
-  background: blue;
 
 
 }
@@ -189,12 +186,18 @@ div.menu-main-container {
 
 section {
 
-  background-color: #F2F4F2;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
   width: 69%;
   float: left;
+}
+
+section h3 {
+
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1D4272;
 }
 
 
@@ -204,7 +207,6 @@ section {
 
 div#sub-navigation {
 
-  background-color: #B6C3CD;
   margin-top: 2%;
   width: 29.5%;
   float: right;
@@ -249,7 +251,6 @@ h3.sub-navigation-title {
   float: right;
   width: 29.5%;
   margin-top: 20px;
-  background: gray;
 
 }
 
@@ -257,15 +258,63 @@ h3.sub-navigation-title {
 
   list-style: none;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
+
+}
+
+#homepage-sidebar li {
+
+  margin: 10px 0 5px;
+
+}
+
+#home-categories {
+  width: 100%;
+
+
+}
+
+#home-categories ul {
+
+  list-style-type: inherit;
+  padding-left: 30px;
+
+
+}
+
+#home-categories a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+#home-categories-h2 {
+  width: 100%;
+  border-bottom: 4px solid #2995C1;
+
+
+}
+
+#home-categories-h2 {
+
+color: #1D4272;
 
 }
 
 #home-widget-item {
 
-  background: cyan;
   margin-top: 20px;
   text-align: center;
+
+}
+
+#home-news-h3 {
+
+  width: 100%;
+  border-bottom: 4px solid #2995C1;
+  text-align: left;
+  color: #1D4272;
 
 }
 
@@ -305,8 +354,8 @@ h3.sub-navigation-title {
 #home-cta {
 
   width: 100%;
-  background: yellow;
   margin-top: 20px;
+  float: left;
 
 
 }
@@ -314,7 +363,6 @@ h3.sub-navigation-title {
 .home-cta-content {
 
   width: 32%;
-  background: maroon;
   float: left;
 
 }
@@ -325,6 +373,14 @@ h3.sub-navigation-title {
   margin-top: 5px;
 
 }
+
+.home-cta-content h4 {
+
+  text-align: center;
+  margin-top: 10px;
+
+}
+
 
 
 .home-cta-content:nth-child(n+2):nth-child(-n+3) {
@@ -337,7 +393,8 @@ h3.sub-navigation-title {
 
   display: block;
   margin: auto;
-  border-radius: 50%;
+
+
 }
 
 
@@ -348,8 +405,8 @@ h3.sub-navigation-title {
 #home-projects {
 
   width: 100%;
-  background: purple;
   margin-top: 20px;
+  float: left;
 
 }
 
@@ -357,11 +414,10 @@ h3.sub-navigation-title {
 
   float: left;
   width: 48%;
-  background: tan;
 
 }
 
-.home-projects-content:nth-child(2) {
+.home-projects-content:nth-child(3) {
 
   margin-left: 4%;
 
@@ -378,6 +434,7 @@ h3.sub-navigation-title {
 
   display: block;
   margin: auto;
+  width: 100%;
 
 }
 
@@ -390,10 +447,18 @@ h3.sub-navigation-title {
 #home-director {
 
   width: 100%;
-  background: pink;
   margin-top: 20px;
+  float: left;
 
 }
+
+#director-image {
+
+  float: left;
+  padding-right: 10px;
+}
+
+
 
 
 
@@ -405,15 +470,29 @@ h3.sub-navigation-title {
 footer {
 
   clear: both;
-  background: green;
+  background: #2995C1;
+  float: left;
+  width: 100%;
+  color: white;
 
+}
+
+footer a {
+
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+
+  color: #1D4272;
 }
 
 #footer-nav {
 
-  background: purple;
   width: 25%;
   float: left;
+
 
 
 }
@@ -431,7 +510,6 @@ li.menu-item {
   float: right;
   width: 25%;
   height: 100px;
-  background: yellow;
 
 }
 
@@ -492,9 +570,9 @@ li.menu-item {
 
 
 
-  .home-projects-content:nth-child(2) {
+  .home-projects-content:nth-child(3) {
 
-    margin: 0;
+    margin-left: 0;
 
   }
 
@@ -555,7 +633,7 @@ li.menu-item {
 
 .jquery-nav {
 
-  background-color:#2B621D;
+  background-color:#1D4272;
 
 
 }
