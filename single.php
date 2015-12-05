@@ -7,11 +7,19 @@
 
 get_header(); ?>
 
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
+
+
 	<main id="main" class="site-main" role="main">
 
 		<?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		<?php the_content(); ?>
 
 
@@ -29,7 +37,6 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 
-    <h2>This is a single post page</h2>
 
 	</main><!-- #main -->
 

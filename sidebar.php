@@ -6,7 +6,7 @@
 <?php endif; ?>
 <!--begin sub nav-->
 
-<h3 class="sub-navigation-title"><?php echo get_the_title($post->post_parent); ?></h3>
+
 
 <ul class="sub-navigation-items"><?php
 

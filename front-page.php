@@ -6,6 +6,8 @@
 
 </div>
 
+
+
 <section>
   <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 
@@ -22,7 +24,7 @@
 
     <div class="home-cta-content">
 
-      <img src="<?php bloginfo('template_directory'); ?>/images/objective(2).png" alt="mission" class="home-cta-image"/>
+      <img src="<?php bloginfo('template_directory'); ?>/images/objective(purple).png" alt="mission" class="home-cta-image"/>
       <h4>Mission</h4>
 
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
@@ -31,7 +33,7 @@
 
     <div class="home-cta-content">
 
-      <img src="<?php bloginfo('template_directory'); ?>/images/history4.png" alt="history" class="home-cta-image"/>
+      <img src="<?php bloginfo('template_directory'); ?>/images/history(purple).png" alt="history" class="home-cta-image"/>
 
       <h4>History</h4>
 
@@ -40,7 +42,7 @@
 
     <div class="home-cta-content">
 
-      <img src="<?php bloginfo('template_directory'); ?>/images/multiple25.png" alt="staff" class="home-cta-image"/>
+      <img src="<?php bloginfo('template_directory'); ?>/images/staff(purple).png" alt="staff" class="home-cta-image"/>
 
       <h4>Staff/Members</h4>
 
@@ -73,7 +75,9 @@
     <h3>CoSSaR Director Mark Haselkorn</h3>
 
     <div id="director-image"><img src="<?php bloginfo('template_directory'); ?>/images/director-thumbnail.png" alt="director" class="home-director-image"/></div>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <div id="director-p">
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    </div>
 
 
   </div>
@@ -120,13 +124,27 @@
 </div>
 
 <div id="home-social">
-  <h3>Social Media</h3>
+  <div id="home-social-h3">
 
+    <h3>Social Media</h3>
+
+  </div>
+
+<div class="social-media-content">
+  <img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="staff" class="social-media-image"/>
+</div>
+
+<div class="social-media-content">
+  <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="staff" class="social-media-image"/>
+</div>
+
+<div class="social-media-content">
+  <img src="<?php bloginfo('template_directory'); ?>/images/instagram.png" alt="staff" class="social-media-image"/>
+</div>
 
 </div>
 
 
-</div>
 
 
 
@@ -137,7 +155,6 @@
 
 
 
-<small>front-page.php</small>
 
 
 <?php get_footer(); ?>

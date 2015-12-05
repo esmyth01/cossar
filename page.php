@@ -8,9 +8,19 @@
 get_header(); ?>
 
 <!-- loop to pull content for all pages -->
+
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
+
+<h2 id="page-title"><?php the_title(); ?></h2>
+
 <section>
 
-  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
 
   <img src="<?php bloginfo('template_directory'); ?>/images/placeholder-page.png" alt="pageholder" class="placeholder-page"/>
   <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
@@ -46,7 +56,7 @@ get_header(); ?>
     <aside>
       <?php get_sidebar();?>
     </aside>
-    <h2>This is a standard page</h2>
+
 
 
 

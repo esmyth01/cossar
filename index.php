@@ -7,6 +7,14 @@
 
 get_header(); ?>
 
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
+
+
 <section>
 
   <!-- loop to pull blog content -->
@@ -42,7 +50,6 @@ in <?php the_category(', '); ?>
 
 
 
-  <h2>This is an index page</h2>
 
 
 
