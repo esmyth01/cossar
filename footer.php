@@ -1,7 +1,8 @@
+
 </div><!--end main-content-->
-
+</div><!--end wrapper-->
 <footer>
-
+<div id="footer-inner">
 
 <!-- add navigation to footer -->
 
@@ -32,12 +33,12 @@
 </div>
 
 
-
+</div><!-- end footer-inner -->
 </footer>
 
 <?php wp_footer()?>
 
-</div><!--end wrapper-->
+
 <script>
 
 

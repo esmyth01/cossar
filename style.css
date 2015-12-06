@@ -38,8 +38,10 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 }
 
 #wrapper {
-  width: 1024px;
-  margin: auto;
+width:100%;
+  max-width: 64em; /*1024px*/
+  margin: 0 auto;
+  overflow:hidden;
 }
 
 #main-content {
@@ -51,7 +53,14 @@ header {
 width: 100%;
 background: #2995C1;
 height:4em;
+}
+
+#header-inner {
+width:100%;
+max-width:64em;
+margin:0 auto;
 position:relative;
+height:4em;
 }
 
 /*Begin Logo*/
@@ -68,10 +77,14 @@ max-width:100%;
 display:block;
 }
 /*Begin Nav*/
-
+#nav-box {
+width:100%;
+background: #1D4272;
+}
 
 div.menu-main-container {
-  max-width: auto;
+  width:100%;
+  max-width: 64em;
   margin: 0px auto;
   background: #1D4272;
   height: 50px;
@@ -95,7 +108,8 @@ font-weight:400;
   display: inline-block;
   list-style-type: none;
   position: relative;
-  width:15%;
+  width:16%;
+  float:left;
   line-height:50px;
   text-align:center;
 }
@@ -551,11 +565,16 @@ padding-top: 20px;
 footer {
   clear: both;
   background: #1D4272;
-  float: left;
-  width: 100%;
-  color: white;
+  overflow:hidden;
   margin-top:2em;
-  padding-top:1em;
+  padding:1em;
+}
+
+#footer-inner {
+margin:0 auto;
+  width: 100%;
+  max-width:64em;
+  color: white;
 }
 
 footer li {
@@ -593,6 +612,11 @@ display:inline;
 padding-left:.75em;
 }
 
+#footer-affiliates {
+  float: right;
+  width: 25%;
+}
+
 #footer-affiliates h4.legal {
 padding-top:1.5em;
 }
@@ -601,6 +625,7 @@ padding-top:1.5em;
 width:25%;
 float:right;
 clear:both;
+margin-bottom:1em;
 }
 
 /* remove bullets from list WP */
@@ -609,13 +634,6 @@ li.menu-item {
 
   list-style-type: none;
 }
-
-
-#footer-affiliates {
-  float: right;
-  width: 25%;
-}
-
 
 /* End footer */
 
@@ -626,18 +644,19 @@ li.menu-item {
 
 /* Start Tablet Query */
 
-@media all and (max-width: 1024px) {
+@media all and (min-width: 668px) and (max-width: 1024px) {
 
 #wrapper {
-
   width: 100%;
+  padding:0 1em;
+  box-sizing:border-box;
 }
 
-
+header, #header-inner {
+height:3em;
 }
 
-/* End Tablet Query */
-
+}
 
 
 /* Start Mobile Query */
@@ -658,9 +677,11 @@ li.menu-item {
 
   #wrapper {
   margin-top:0;
+    padding:0 1em;
+  box-sizing:border-box;
   }
   
-  header {
+  header, #header-inner {
   height:2em;
   }
   

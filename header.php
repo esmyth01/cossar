@@ -22,28 +22,29 @@
 
 <body <?php body_class();?>>
 
-<div id="wrapper">
+
 
 
 
 
 <header>
+<div id="header-inner">
   <div id="logo">
 <a href="http://52.88.123.0"><img src="<?php bloginfo('template_directory'); ?>/images/logo4.png" alt="logo" class="logo"/></a>
   </div>
 
-
+</div> <!-- end header-inner -->
 
 </header>
 
-
+<div id="nav-box">
 <div class="jquery-nav">
 				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/mobile-nav-cat.png"></div></a></h4>
 				<?php wp_nav_menu(); ?>
 			</div>
 
-
-
+</div>
+<div id="wrapper">
 
 
 
