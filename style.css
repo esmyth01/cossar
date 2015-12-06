@@ -50,10 +50,23 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 header {
 width: 100%;
 background: #2995C1;
-
+height:4em;
+position:relative;
 }
 
+/*Begin Logo*/
+#logo {
+position:absolute;
+top:35%;
+left:2.5%;
+width:14.65%;/*150px / 1024px*/
+z-index:999;
+}
 
+#logo img {
+max-width:100%;
+display:block;
+}
 /*Begin Nav*/
 
 
@@ -70,63 +83,64 @@ div.menu-main-container {
 
 #menu-main {
   text-align: center;
-  height: 50px;
+  width:82.5%;
+  float:right;
+
 }
 
 #menu-main > li {
-
+font-family:'Oswald', sans-serif;
+font-weight:400;
   font-size: 1.125em;
   display: inline-block;
   list-style-type: none;
-  height: 50px;
   position: relative;
+  width:15%;
+  line-height:50px;
+  text-align:center;
+}
+
+#menu-main li.wide {
+width:20%;
 }
 
 #menu-main > li a {
-
   text-decoration: none;
 }
 
 #menu-main > li a.current {
-  background: #EEF2DC;
-  color: #698F69;
+  background: #40286b;
+  color: #fff;
 }
 
 #menu-main ul li:hover {
-
 }
 
 #menu-main ul li a:hover{
-
-  background: #EEF2DC;
-  color: #2995C1;
-
-
+  background: #40286b;
+  color: #fff;
 }
 
 #menu-main > li a {
-
   display: block;
-  color: #EEF2DC;
-  padding: 14.5px 30px;
-
+  color: #fff;
 }
 
 #menu-main > li a:hover {
-
-  background: #EEF2DC;
-  color: #2995C1;
+  background: #40286b;
+  color: #fff;
 }
 
 
 #menu-main ul.sub-menu {
-
   text-align: left;
   position: absolute;
   display: none;
   background-color: rgba(29,66,114,0.8);
   z-index: 20;
   top: 98%;
+  width:8em;
+  text-indent:1em;
 }
 
 #menu-main ul.sub-menu li {
@@ -635,16 +649,21 @@ li.menu-item {
 
 
   #wrapper, section, #home-cta, .home-cta-content, #home-projects, .home-projects-content, #home-director, #footer-nav, #footer-affiliates {
-
     float: none;
     width: 100%;
     margin: auto;
     margin-top: 10px;
     text-align: center;
-
-
   }
 
+  #wrapper {
+  margin-top:0;
+  }
+  
+  header {
+  height:2em;
+  }
+  
   div#sub-navigation, #homepage-sidebar  {
 
     display: none;
@@ -694,10 +713,10 @@ li.menu-item {
 }
 
 #menu-main {
-
+width:100%;
   text-align: left;
   height:auto;
-
+  background-color:#1D4272;
 }
 
 
@@ -708,10 +727,12 @@ li.menu-item {
 
 }
 
-#menu-main > li {
+#menu-main > li, #menu-main > li.wide {
 
   display: block;
-
+width:100%;
+text-align:left;
+text-indent:2em;
 }
 
 #menu-main > li a {

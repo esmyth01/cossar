@@ -29,7 +29,7 @@
 
 <header>
   <div id="logo">
-<a href="http://52.88.123.0"><img src="<?php bloginfo('template_directory'); ?>/images/cossar-logo.png" alt="logo" class="logo"/></a>
+<a href="http://52.88.123.0"><img src="<?php bloginfo('template_directory'); ?>/images/logo4.png" alt="logo" class="logo"/></a>
   </div>
 
 
