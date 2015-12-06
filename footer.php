@@ -18,22 +18,18 @@
 
 <div id="footer-affiliates">
 
-    <h3>AFFILIATES</h3>
-
-    <p>Terms &amp; Conditions</p>
-    <p>Privacy Policy</p>
-
-    <br/><h3>LEGAL</h3>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <p>&copy;2015 CoSSar</p>
-
-
-
-  </div>
-
+    <h4>AFFILIATES</h4>
+	
+    <h4 class="legal">LEGAL</h4>
+	<ul>
+    <li><a href="javascript:;">Terms &amp; Conditions</a></li>
+    <li><a href="javascript:;">Privacy Policy</a></li>
+	</ul>
+ </div>
+  
+<div id="copy">
+<p>&copy;2015 CoSSaR</p>
+</div>
 
 
 

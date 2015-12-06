@@ -6,7 +6,8 @@
 1.0, maximum-scale=1.0" />
 <title><?php echo get_my_title_tag(); ?> </title>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" >
-
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600italic,700,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
 <!--Start wp head-->
 

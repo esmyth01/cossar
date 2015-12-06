@@ -535,33 +535,58 @@ padding-top: 20px;
 /* Start footer */
 
 footer {
-
   clear: both;
   background: #1D4272;
   float: left;
   width: 100%;
   color: white;
-
+  margin-top:2em;
+  padding-top:1em;
 }
 
-footer a {
+footer li {
+padding-top:.5em;
+list-style-type:none;
+}
 
+footer li a {
   color: white;
   text-decoration: none;
 }
 
-footer a:hover {
-
-  color: #1D4272;
+footer li a:hover {
+  color: #0791bf;
 }
 
+ footer h4 {
+ font-family:'Oswald', sans-serif;
+ font-weight:400;
+ font-size:1em;
+   color: #0791bf;
+ }
+
 #footer-nav {
-
-  width: 25%;
+  width: 50%;
   float: left;
+}
 
+footer .sub-menu {
+padding-top:.5em;
+}
 
+footer .sub-menu li {
+display:inline;
+padding-left:.75em;
+}
 
+#footer-affiliates h4.legal {
+padding-top:1.5em;
+}
+
+#copy {
+width:25%;
+float:right;
+clear:both;
 }
 
 /* remove bullets from list WP */
@@ -573,11 +598,8 @@ li.menu-item {
 
 
 #footer-affiliates {
-
   float: right;
   width: 25%;
-  height: 100px;
-
 }
 
 
