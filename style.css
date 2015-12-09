@@ -62,6 +62,8 @@ height:4em;
 }
 
 /*Begin Logo*/
+
+
 #logo {
 position:absolute;
 top:35%;
@@ -74,7 +76,11 @@ z-index:999;
 max-width:100%;
 display:block;
 }
+
+/*End Logo*/
+
 /*Begin Nav*/
+
 #nav-box {
 width:100%;
 background: #1D4272;
