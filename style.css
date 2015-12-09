@@ -148,7 +148,7 @@ width:20%;
   text-align: left;
   position: absolute;
   display: none;
-  background-color: rgba(29,66,114,0.8);
+  background-color: rgba(65,44,111,0.8);
   z-index: 20;
   top: 98%;
   width:8em;
@@ -678,11 +678,11 @@ height:3em;
     padding:0 1em;
   box-sizing:border-box;
   }
-  
+
   header, #header-inner {
   height:2em;
   }
-  
+
   div#sub-navigation, #homepage-sidebar  {
 
     display: none;

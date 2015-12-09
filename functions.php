@@ -11,10 +11,10 @@ Version: 1.0
 
 //Register my menus
 
-  register_nav_menus(array('main-menu' => __('Main'), 'footer-menu' => __( 'Footer Menu' ),
+  register_nav_menus(array('main-menu' => __('Main'), 'footer-menu' => __( 'Footer Menu'),
   ));
 
- 
+
 
 
 

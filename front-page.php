@@ -90,11 +90,9 @@
 
 <div id="home-categories-h2"><h2>Categories</h2></div>
 
-  <ul>
-    <li><a href="#">News</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Press</a></li>
-  </ul>
+<ul>
+<?php wp_list_categories(''); ?> 
+</ul>
 </div>
 
   <div id="home-widget-item">
