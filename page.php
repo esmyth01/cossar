@@ -10,10 +10,10 @@ get_header(); ?>
 <!-- loop to pull content for all pages -->
 
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
+  <?php if(function_exists('bcn_display'))
+  {
+    bcn_display();
+  }?>
 </div>
 
 <h2 id="page-title"><?php the_title(); ?></h2>
@@ -36,28 +36,37 @@ get_header(); ?>
 
     <ul class="sub-navigation-mobile">
 
-      <?php $children = get_pages(array('child_of' => $post->ID));
 
-      foreach ($children as $child) { ?>
+      <?php
+      $mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'post_date', 'sort_order' => 'asc' ) );
 
-        <li><a href="<?php echo get_permalink($child->ID); ?>"><?php echo $child->post_title; ?></a></li>
+      foreach( $mypages as $page ) {
+        $excerpt = $page->post_excerpt;
+        if ( ! $excerpt ) // Check for empty page
+        continue;
 
-          <p><?php echo $child->post_excerpt; ?></p>
-
-          <?php } ?>
-
-        </ul>
-
-      </div>
-
-
-    </section>
-
-    <aside>
-      <?php get_sidebar();?>
-    </aside>
+        $excerpt = apply_filters( 'the_excerpt', $excerpt );
+        ?>
+        <h2><a href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a></h2>
+        <div class="entry"><?php echo $excerpt; ?></div>
+        <?php
+      }
+      ?>
+      
+    </ul>
 
 
 
+  </div>
 
-    <?php get_footer(); ?>
+
+</section>
+
+<aside>
+  <?php get_sidebar();?>
+</aside>
+
+
+
+
+<?php get_footer(); ?>
