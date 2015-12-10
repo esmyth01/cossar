@@ -489,6 +489,19 @@ width: 100%;
 
 }
 
+.home-cta-content a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+.home-cta-content a:hover {
+
+  color: #1D4272;
+
+}
+
 
 
 .home-cta-content:nth-child(n+2):nth-child(-n+3) {

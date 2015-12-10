@@ -12,7 +12,7 @@
   <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 
 
-    <?php the_content('page_id=5'); ?>
+    <?php the_content(); ?>
 
 
   <?php endwhile; endif;  //end loop?>
@@ -25,9 +25,14 @@
     <div class="home-cta-content">
 
       <img src="<?php bloginfo('template_directory'); ?>/images/objective(purple).png" alt="mission" class="home-cta-image"/>
-      <h4>Mission</h4>
+      <h4><a href="<?php echo get_permalink( get_page_by_path( 'about/mission' ) ) ?>">Mission</a></h4>
 
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p><?php $page_id = 26;
+
+      $page_object = get_page( $page_id );
+
+      echo $page_object->post_excerpt;?></p>
+
 
     </div>
 
@@ -35,18 +40,28 @@
 
       <img src="<?php bloginfo('template_directory'); ?>/images/history(purple).png" alt="history" class="home-cta-image"/>
 
-      <h4>History</h4>
+      <h4><a href="<?php echo get_permalink( get_page_by_path( 'about/history' ) ) ?>">History</a></h4>
 
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p><?php $page_id = 24;
+
+      $page_object = get_page( $page_id );
+
+      echo $page_object->post_excerpt;?></p>
+
     </div>
 
     <div class="home-cta-content">
 
       <img src="<?php bloginfo('template_directory'); ?>/images/staff(purple).png" alt="staff" class="home-cta-image"/>
 
-      <h4>Staff/Members</h4>
+      <h4><a href="<?php echo get_permalink( get_page_by_path( 'about/staff' ) ) ?>">Staff</a></h4>
 
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p><?php $page_id = 28;
+
+      $page_object = get_page( $page_id );
+
+      echo $page_object->post_excerpt;?></p>
+
     </div>
 
   </div>
@@ -86,14 +101,14 @@
 
 
 <div id="homepage-sidebar">
-<div id="home-categories">
+  <div id="home-categories">
 
-<div id="home-categories-h2"><h2>Categories</h2></div>
+    <div id="home-categories-h2"><h2>Categories</h2></div>
 
-<ul>
-<?php wp_list_categories(); ?>
-</ul>
-</div>
+    <ul>
+      <?php wp_list_categories(); ?>
+    </ul>
+  </div>
 
   <div id="home-widget-item">
     <div id="home-news-h3"><h3>Latest News</h3></div>
@@ -104,36 +119,36 @@
       <?php while (have_posts()) : the_post(); ?>
         <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 
-      <?php the_post_thumbnail('medium'); ?>
+        <?php the_post_thumbnail('medium'); ?>
 
-      <?php the_excerpt(); ?>
+        <?php the_excerpt(); ?>
 
-    <?php endwhile; ?>
-  </ul>
+      <?php endwhile; ?>
+    </ul>
 
-
-</div>
-
-<div id="home-social">
-  <div id="home-social-h3">
-
-    <h3>Social Media</h3>
 
   </div>
 
-<div class="social-media-content">
-  <img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="staff" class="social-media-image"/>
-</div>
+  <div id="home-social">
+    <div id="home-social-h3">
 
-<div class="social-media-content">
-  <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="staff" class="social-media-image"/>
-</div>
+      <h3>Social Media</h3>
 
-<div class="social-media-content">
-  <img src="<?php bloginfo('template_directory'); ?>/images/instagram.png" alt="staff" class="social-media-image"/>
-</div>
+    </div>
 
-</div>
+    <div class="social-media-content">
+      <img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="staff" class="social-media-image"/>
+    </div>
+
+    <div class="social-media-content">
+      <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="staff" class="social-media-image"/>
+    </div>
+
+    <div class="social-media-content">
+      <img src="<?php bloginfo('template_directory'); ?>/images/instagram.png" alt="staff" class="social-media-image"/>
+    </div>
+
+  </div>
 
 
 </div><!--end homepage-sidebar-->
