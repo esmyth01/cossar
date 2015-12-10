@@ -350,6 +350,12 @@ div#sub-navigation {
 
 }
 
+#home-categories ul li a:hover {
+
+  color: #1D4272;
+
+}
+
 #home-categories-h2 {
   width: 100%;
   border-bottom: 4px solid #2995C1;
@@ -367,6 +373,19 @@ color: #1D4272;
 
   margin-top: 20px;
   text-align: center;
+
+}
+
+#home-widget-item ul li a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+#home-widget-item ul li a:hover {
+
+  color: #1D4272;
 
 }
 

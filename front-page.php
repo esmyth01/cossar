@@ -91,12 +91,12 @@
 <div id="home-categories-h2"><h2>Categories</h2></div>
 
 <ul>
-<?php wp_list_categories(''); ?> 
+<?php wp_list_categories(); ?>
 </ul>
 </div>
 
   <div id="home-widget-item">
-    <div id="home-news-h3"><h3>News</h3></div>
+    <div id="home-news-h3"><h3>Latest News</h3></div>
     <ul>
 
       <?php rewind_posts(); ?>
@@ -104,14 +104,7 @@
       <?php while (have_posts()) : the_post(); ?>
         <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 
-        <?php if (has_post_thumbnail($page_id)){
-          echo get_the_post_thumbnail(
-          $page_id,
-          array(280,140),
-          array('class' => 'post_thumbnail')
-        );
-      }
-      ?>
+      <?php the_post_thumbnail('medium'); ?>
 
       <?php the_excerpt(); ?>
 
