@@ -265,7 +265,13 @@ section h3 {
   padding-top:1em;
   color: #1D4272;
 }
-
+h2 a {
+    text-decoration: none;
+    color: #1D4272;
+}
+h2 a:hover {
+color:#2995c1;
+}
 
 /* End main section */
 
