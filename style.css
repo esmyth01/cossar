@@ -69,6 +69,29 @@ position:relative;
 height:4em;
 }
 
+#header-box {
+width:100%;
+background-color:#40286b;
+overflow:hidden;
+}
+
+#header-text {
+width:60%;
+float:right;
+padding: 0 2em;
+box-sizing:border-box;
+text-align:right;
+}
+
+.header {
+font-family: 'Oswald', sans-serif;
+font-weight:700;
+font-size:1.875em;
+color:#fff;
+line-height:2.5em;
+
+}
+
 /*Begin Logo*/
 
 
@@ -211,9 +234,7 @@ width:20%;
 /* Start flexslider */
 
 #flexslider {
-
   width: 100%;
-
 }
 
 /* End flexslider */
@@ -222,35 +243,24 @@ width:20%;
 /* Start main section */
 
 .breadcrumbs {
-
-margin-top: 75px;
-
+margin-top: 2em;
 }
 
 .breadcrumbs a {
-
   text-decoration: none;
   color: #2995C1;
-
-
 }
 
 .breadcrumbs a:hover {
-
-
 color: #1D4272;
-
 }
 
 #page-title {
-
 margin-top: 20px;
 color: #1D4272;
-
 }
 
 section {
-
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -710,6 +720,7 @@ header, #header-inner {
 height:3em;
 }
 
+
 }
 
 
@@ -751,10 +762,13 @@ box-sizing:border-box;
   }
 
   div#sub-navigation, #homepage-sidebar  {
-
     display: none;
-
   }
+  
+  .header {
+font-size:1.5em;
+}
+
 
   .home-cta-content:nth-child(n+2):nth-child(-n+3) {
 

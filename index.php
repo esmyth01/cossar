@@ -6,6 +6,11 @@
  */
 
 get_header(); ?>
+<div id="header-box">
+<div id="header-text">
+<span class="header">CoSSaR Blog</span>
+</div>
+</div><!-- end header-box -->
 <div id="main-content">
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <?php if(function_exists('bcn_display'))
