@@ -243,7 +243,8 @@ width:20%;
 /* Start main section */
 
 .breadcrumbs {
-margin-top: 2em;
+padding-top: 2em;
+margin-bottom:1em;
 }
 
 .breadcrumbs a {
@@ -610,11 +611,37 @@ padding-top: 20px;
 }
 
 
-
-
-
-
 /* End home director */
+
+/*comment styles*/
+
+#respond {
+    padding-top: 1.5em;
+}
+
+#commentform {
+    padding-top: 1em;
+}
+
+#commentform p {
+    padding-top: .5em;
+}
+
+#comments {
+    padding-top: 1.5em;
+}
+
+.commentlist {
+    margin-bottom: 2em;
+}
+.comment {
+    padding-top: 1.5em;
+    margin-bottom: 2em;
+}
+.comment-meta a {
+    text-decoration: none;
+    color: #2995c1;
+}
 
 /* Start footer */
 
