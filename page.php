@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <!-- loop to pull content for all pages -->
-
+<div id="main-content">
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
   <?php if(function_exists('bcn_display'))
   {

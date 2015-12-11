@@ -691,8 +691,12 @@ li.menu-item {
 
 #wrapper {
   width: 100%;
-  padding:0 1em;
   box-sizing:border-box;
+}
+
+#main-content {
+padding:0 1em;
+box-sizing:border-box;
 }
 
 header, #header-inner {
@@ -720,9 +724,13 @@ height:3em;
 
   #wrapper {
   margin-top:0;
-    padding:0 1em;
   box-sizing:border-box;
   }
+  
+  #main-content {
+padding:0 1em;
+box-sizing:border-box;
+}
 
   header, #header-inner {
   height:2em;
