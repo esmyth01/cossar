@@ -35,6 +35,10 @@ A versatile flexslider that displays a rotating slide show of images on the fron
   margin: 0;
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 #wrapper {
 width:100%;
   max-width: 64em; /*1024px*/
@@ -215,7 +219,7 @@ width:20%;
 
 .breadcrumbs {
 
-margin-top: 20px;
+margin-top: 75px;
 
 }
 
@@ -251,7 +255,7 @@ section {
 }
 
 section h3 {
-
+ font-family:'Oswald', sans-serif;
   text-align: center;
   margin-bottom: 10px;
   color: #1D4272;
@@ -359,14 +363,13 @@ div#sub-navigation {
 #home-categories-h2 {
   width: 100%;
   border-bottom: 4px solid #2995C1;
-
+  font-family:'Oswald', sans-serif;
 
 }
 
 #home-categories-h2 {
-
-color: #1D4272;
-
+ color: #1D4272;
+ font-family:'Oswald', sans-serif;
 }
 
 #home-widget-item {
@@ -390,7 +393,7 @@ color: #1D4272;
 }
 
 #home-news-h3 {
-
+ font-family:'Oswald', sans-serif;
   width: 100%;
   border-bottom: 4px solid #2995C1;
   text-align: left;
@@ -405,7 +408,7 @@ color: #1D4272;
 }
 
 #home-social-h3 {
-
+  font-family:'Oswald', sans-serif;
   width: 100%;
   border-bottom: 4px solid #2995C1;
   text-align: left;
@@ -842,6 +845,16 @@ div.menu-icon img {
   display: inherit !important;
 }
 
+#director-image {
+  width: 100%;
+}
+#director-p {
+  clear:both;
+  width: 100%;
+}
+.footer {
+  display:none;
+}
 
 
 
