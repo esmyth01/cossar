@@ -39,6 +39,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+img {
+max-width:100%;
+}
+
 #wrapper {
 width:100%;
   max-width: 64em; /*1024px*/
