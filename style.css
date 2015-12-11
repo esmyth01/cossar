@@ -725,7 +725,11 @@ height:3em;
 
 @media all and (min-width: 320px) and (max-width: 667px) {
 
-
+#logo{
+left: 50%;
+width: 6em;
+margin-left: -3em;
+}
 
 
   #wrapper, section, #home-cta, .home-cta-content, #home-projects, .home-projects-content, #home-director, #footer-nav, #footer-affiliates {
@@ -809,6 +813,7 @@ font-size:1.5em;
 }
 
 #menu-main {
+padding-top:1.5em;
 width:100%;
   text-align: left;
   height:auto;
