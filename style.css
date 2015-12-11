@@ -423,9 +423,7 @@ div#sub-navigation {
 }
 
 #home-social {
-
   margin-top: 20px;
-
 }
 
 #home-social-h3 {
@@ -434,14 +432,12 @@ div#sub-navigation {
   border-bottom: 4px solid #2995C1;
   text-align: left;
   color: #1D4272;
-
-
 }
 
 .social-media-content {
-
+width:21.2%;
   float: left;
-  margin-top: 20px;
+  margin-top: 1.5em;
 
 }
 
