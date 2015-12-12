@@ -5,7 +5,7 @@
   <?php wd_slider(2); ?>
 
 </div>
-
+<div id="wrapper">
 <div id="main-content">
 
   <section>
