@@ -37,6 +37,12 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5em;
+}
+
+p {
+  margin-bottom: .75em;
+  padding: .5em;
 }
 
 img {
@@ -54,7 +60,10 @@ width:100%;
   width: 100%;
 
 }
-
+#single-page-post {
+  width: 70%;
+  margin: auto;
+}
 header {
 width: 100%;
 background: #2995C1;
@@ -765,7 +774,7 @@ margin-left: -3em;
     margin-top: 10px;
     text-align: center;
   }
-  
+
   .home-cta-content {
   padding-top:2em;
   }
@@ -777,7 +786,7 @@ margin-left: -3em;
   margin-top:0;
   box-sizing:border-box;
   }
-  
+
   #main-content {
 padding:0 1em;
 box-sizing:border-box;
@@ -790,7 +799,7 @@ box-sizing:border-box;
   div#sub-navigation, #homepage-sidebar  {
     display: none;
   }
-  
+
   .header {
 font-size:1.5em;
 }
@@ -919,7 +928,7 @@ div.menu-icon img {
   clear:both;
   width: 100%;
 }
-.footer {
+footer {
   display:none;
 }
 

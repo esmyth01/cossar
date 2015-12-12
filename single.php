@@ -19,7 +19,7 @@ get_header(); ?>
     }?>
 </div>
 
-
+<div id="single-page-post">
 	<main id="main" class="site-main" role="main">
 
 		<?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
@@ -44,5 +44,5 @@ get_header(); ?>
 
 
 	</main><!-- #main -->
-
+</div>
 <?php get_footer(); ?>
