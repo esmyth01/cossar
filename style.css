@@ -37,7 +37,6 @@ A versatile flexslider that displays a rotating slide show of images on the fron
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5em;
 }
 
 img {
@@ -54,16 +53,6 @@ width:100%;
 #main-content {
   width: 100%;
 
-}
-#single-page-content {
-  width: 70%;
-  margin: auto;
-  line-height: 1.85em;
-}
-
-p {
-  margin-bottom: 1.25em;
-  padding: .5em;
 }
 
 header {
@@ -245,7 +234,6 @@ width:20%;
 
 #flexslider {
   width: 100%;
-  max-width: 64em;
 }
 
 /* End flexslider */
@@ -777,7 +765,7 @@ margin-left: -3em;
     margin-top: 10px;
     text-align: center;
   }
-
+  
   .home-cta-content {
   padding-top:2em;
   }
@@ -789,7 +777,7 @@ margin-left: -3em;
   margin-top:0;
   box-sizing:border-box;
   }
-
+  
   #main-content {
 padding:0 1em;
 box-sizing:border-box;
@@ -802,7 +790,7 @@ box-sizing:border-box;
   div#sub-navigation, #homepage-sidebar  {
     display: none;
   }
-
+  
   .header {
 font-size:1.5em;
 }
@@ -822,9 +810,7 @@ font-size:1.5em;
 
   }
 
-  footer {
-    display:none;
-  }
+
 
 
 
@@ -933,7 +919,9 @@ div.menu-icon img {
   clear:both;
   width: 100%;
 }
-
+.footer {
+  display:none;
+}
 
 
 
