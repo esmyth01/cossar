@@ -373,6 +373,9 @@ float:left;
     margin-bottom: 1.5em;
 	overflow:hidden;
 }
+#menu-main .searchform {
+display:none;
+}
 
 /* Start homepage sidebar */
 #homepage-sidebar {
@@ -808,6 +811,23 @@ width: 6em;
 margin-left: -3em;
 }
 
+#menu-main .searchform {
+display:block;
+margin-left:2em;
+
+}
+
+#s {
+    width: 80%;
+	max-width:540px;
+	height:1.7em;
+}
+#searchsubmit {
+width:16%;
+max-width:80px;
+float:left;
+}
+
 
   #wrapper, section, #home-cta, .home-cta-content, #home-projects, .home-projects-content, #home-director, #footer-nav, #footer-affiliates {
     float: none;
@@ -942,7 +962,7 @@ text-indent:2em;
 
 .jquery-title a {
 
-  color:#EEF2DC !important;
+  color:#1D4272 !important;
 
 }
 div.menu-icon {
