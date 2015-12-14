@@ -8,7 +8,7 @@
 get_header(); ?>
 <div id="header-box">
 <div id="header-text">
-<span class="header"><?php the_title(); ?></span>
+<span class="header">CoSSaR Blog</span>
 </div>
 </div><!-- end header-box -->
 <div id="main-content">

@@ -10,7 +10,10 @@ get_header(); ?>
 <!-- loop to pull content for all pages -->
 <div id="header-box">
 <div id="header-text">
-<span class="header"><?php the_title(); ?></span>
+<span class="header"><?php $parent = array_reverse(get_post_ancestors($post->ID));
+$first_parent = get_page($parent[0]);
+$heading = ucfirst($first_parent->post_name);
+echo $heading; ?></span>
 </div>
 </div><!-- end header-box -->
 <div id="main-content">
