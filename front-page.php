@@ -113,6 +113,8 @@
 
 
   <div id="homepage-sidebar">
+	<div class="search"><?php get_search_form();?>
+	</div>
     <div id="home-categories">
 
       <div id="home-categories-h2"><h2>Categories</h2></div>

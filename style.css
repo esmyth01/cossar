@@ -352,6 +352,27 @@ div#sub-navigation {
 
 /* End sidebar */
 
+/* Search form styles */
+#s {
+    width: 75%;
+	max-width:230px;
+	height:1.7em;
+	float:left;
+	margin-right:.25em;
+}
+#searchsubmit {
+width:22%;
+max-width:67px;
+float:left;
+}
+#searchform label {
+    display: none;
+}
+#searchform {
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
+	overflow:hidden;
+}
 
 /* Start homepage sidebar */
 #homepage-sidebar {
@@ -375,6 +396,7 @@ div#sub-navigation {
   margin: 10px 0 5px;
 
 }
+
 
 #home-categories {
   width: 100%;
