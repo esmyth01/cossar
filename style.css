@@ -297,6 +297,14 @@ h2 a:hover {
 color:#2995c1;
 }
 
+.post-excerpt h2 {
+  margin-bottom: .125em;
+}
+
+.post-excerpt p{
+  padding-top: .25em;
+}
+
 /* End main section */
 
 /* Start sidebar */
@@ -777,7 +785,6 @@ margin-left: -3em;
     width: 100%;
     margin: auto;
     margin-top: 10px;
-    text-align: center;
   }
 
   .home-cta-content {
@@ -830,6 +837,13 @@ font-size:1.5em;
 
 
   /* Begin Mobile Nav */
+  #header-text {
+  width:100%;
+  float:right;
+  padding: 0 1em;
+  box-sizing:border-box;
+  text-align:right;
+  }
 
   .jquery-nav {
 
