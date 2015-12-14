@@ -665,6 +665,12 @@ padding-top: 20px;
     color: #2995c1;
 }
 
+/* Contact form styles*/
+.wpcf7-form p {
+margin-bottom: 0px;
+padding: 0.25em;
+}
+
 /* Start footer */
 
 footer {
