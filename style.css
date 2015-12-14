@@ -428,16 +428,11 @@ display:none;
 
 }
 
-#home-categories-h2 {
+#home-categories-h3 {
   width: 100%;
   border-bottom: 4px solid #2995C1;
   font-family:'Oswald', sans-serif;
-
-}
-
-#home-categories-h2 {
- color: #1D4272;
- font-family:'Oswald', sans-serif;
+color: #1D4272;
 }
 
 #home-widget-item {

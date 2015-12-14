@@ -117,7 +117,7 @@
 	</div>
     <div id="home-categories">
 
-      <div id="home-categories-h2"><h2>Categories</h2></div>
+      <div id="home-categories-h3"><h3>Categories</h3></div>
 
       <ul>
         <?php wp_list_categories( 'title_li' ); ?>
