@@ -646,6 +646,7 @@ padding-top: 20px;
 
 #commentform p {
     padding-top: .5em;
+	margin-bottom:0;
 }
 
 #comments {
