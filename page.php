@@ -60,9 +60,8 @@ echo $heading; ?></span>
         <?php
       }
       ?>
-      
-    </ul>
 
+    </ul>
 
 
   </div>
