@@ -62,8 +62,9 @@ max-width:100%;
 }
 #single-page-post {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
 }
+
 header {
 width: 100%;
 background: #2995C1;
@@ -752,6 +753,10 @@ padding-top: 1em;
 
 }
 
+#comment {
+max-width:100%;
+}
+
 #comments {
 
   padding-top: 1.5em;
@@ -1078,8 +1083,13 @@ font-size:1.5em;
 
   }
 
-
-
+#single-page-post {
+width:95%;
+}
+/* \/\/\/ keeps single page post img responsive inside div */
+.wp-caption {
+max-width:100%;
+}
 
 
 
