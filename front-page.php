@@ -120,7 +120,8 @@
 
     <div id="home-director">
 
-      <h3>CoSSaR Director Mark Haselkorn</h3>
+      <h3><a href="<?php echo get_permalink( get_page_by_path( 'about/staff' ) ) ?>">CoSSaR Director Mark Haselkorn</a></h3>
+
 
       <div id="director-image"><img src="<?php bloginfo('template_directory'); ?>/images/director-thumbnail.png" alt="director" class="home-director-image"/></div>
       <div id="director-p">
