@@ -38,8 +38,8 @@ by <?php the_author(); ?>
 in <?php the_category(', '); ?>
 
 </small>
-
-<?php the_excerpt(); ?>
+<?php the_post_thumbnail( 'medium' ); ?>
+<p><?php echo get_content(); ?></p>
 
 
 </article>
@@ -50,8 +50,26 @@ in <?php the_category(', '); ?>
 </section>
 
 <aside>
-<?php get_sidebar();?>
-</aside>
+  <?php get_sidebar();?>
+  <div id="homepage-sidebar">
+
+    <div class="search">
+      <?php get_search_form();?>
+    </div>
+
+    <div id="home-categories">
+
+      <div id="home-categories-h3"><h3>Categories</h3></div>
+
+      <ul>
+        <?php wp_list_categories( 'title_li' ); ?>
+      </ul>
+    </div>
+
+
+
+
+  </div><!--end homepage-sidebar--></aside>
 
 
 

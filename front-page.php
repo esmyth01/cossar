@@ -68,7 +68,9 @@
 
 
           <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-          <?php the_excerpt(); ?>
+
+          <?php echo get_excerpt(); ?>
+
 
 
         <?php endwhile; endif;  //end loop?>
@@ -83,14 +85,33 @@
       <h3>CoSSaR Current Projects</h3>
 
       <div class="home-projects-content">
-        <img src="<?php bloginfo('template_directory'); ?>/images/starbird-zunkunft(sm).png" alt="starbird" class="home-projects-image"/>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <?php $query = new WP_Query( array( "category_name" => "projects", "post_type" => "post", "posts_per_page" => 1));  ?>
 
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'large' ); ?>
+          <?php echo get_excerpt(); ?>
+
+
+
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
       </div>
 
       <div class="home-projects-content">
-        <img src="<?php bloginfo('template_directory'); ?>/images/admiral-visit(sm).png" alt="admiral" class="home-projects-image"/>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <?php $query = new WP_Query( array( "category_name" => "projects", "post_type" => "post", "posts_per_page" => 1, "offset" => 1));  ?>
+
+        <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+          <?php the_post_thumbnail( 'large' ); ?>
+          <?php echo get_excerpt(); ?>
+
+
+
+
+        <?php endwhile; endif;  //end loop?>
+        <?php wp_reset_postdata() ?>
 
       </div>
 
@@ -135,7 +156,7 @@
 
           <?php the_post_thumbnail('medium'); ?>
 
-          <?php the_excerpt(); ?>
+          <?php echo get_excerpt(); ?>
 
         <?php endwhile; ?>
       </ul>

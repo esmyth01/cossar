@@ -29,10 +29,9 @@ echo $heading; ?></span>
 
 
 
-  <img src="<?php bloginfo('template_directory'); ?>/images/placeholder-page.png" alt="pageholder" class="placeholder-page"/>
   <?php if (have_posts()) : while(have_posts()) : the_post(); //start loop ?>
 
-
+    <?php the_post_thumbnail( 'large' ); ?>
     <?php the_content(); ?>
 
 
@@ -70,13 +69,16 @@ echo $heading; ?></span>
 
 <aside>
 
-  <div class="search">
-    <?php get_search_form();?>
-  </div>
+
 
 
   <?php get_sidebar();?>
   <div id="homepage-sidebar">
+
+    <div class="search">
+      <?php get_search_form();?>
+    </div>
+
     <div id="home-categories">
 
       <div id="home-categories-h3"><h3>Categories</h3></div>
@@ -97,7 +99,7 @@ echo $heading; ?></span>
 
           <?php the_post_thumbnail('medium'); ?>
 
-          <?php the_excerpt(); ?>
+          <?php echo get_excerpt(); ?>
 
         <?php endwhile; ?>
       </ul>

@@ -42,15 +42,15 @@ body {
 
 p {
   margin-bottom: .75em;
-  padding: .5em;
 }
 
 img {
 max-width:100%;
 }
 
+
 #wrapper {
-width:100%;
+  width:100%;
   max-width: 64em; /*1024px*/
   margin: 0 auto;
   overflow:hidden;
@@ -289,6 +289,20 @@ section h3 {
   padding-top:1em;
   color: #1D4272;
 }
+
+section a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+section a:hover {
+
+  color: #1D4272;
+
+}
+
 h2 a {
     text-decoration: none;
     color: #1D4272;
@@ -297,13 +311,7 @@ h2 a:hover {
 color:#2995c1;
 }
 
-.post-excerpt h2 {
-  margin-bottom: .125em;
-}
 
-.post-excerpt p{
-  padding-top: .25em;
-}
 
 img.alignnone, img.size-full {
 margin-top:1em;
@@ -421,6 +429,20 @@ aside .search {
   margin: 10px 0 5px;
 
 }
+
+#homepage-sidebar a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+#homepage-sidebar a:hover {
+
+  color: #1D4272;
+
+}
+
 
 
 #home-categories {
@@ -712,6 +734,51 @@ padding-top: 20px;
 margin-bottom: 0px;
 padding: 0.25em;
 }
+
+/*Start index.php styles*/
+
+.post-excerpt h2 {
+  margin-bottom: .125em;
+  clear: both;
+}
+
+.post-excerpt p{
+  padding-top: .25em;
+  float: left;
+}
+
+.post-excerpt small {
+
+float: left;
+clear: both;
+margin-bottom: .125em;
+
+}
+
+
+.post-excerpt img {
+
+float: left;
+clear: both;
+
+}
+
+.post-excerpt a {
+
+  text-decoration: none;
+  color: #2995C1;
+
+}
+
+.post-excerpt a:hover {
+
+  color: #1D4272;
+
+}
+
+
+/*End index.php styles*/
+
 
 /* Start footer */
 

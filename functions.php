@@ -84,5 +84,34 @@ function add_search_box( $items, $args ) {
     return $items;
 }
 
+//function for excerpt displaying
+
+function get_excerpt(){
+$permalink = get_permalink($post->ID);
+$excerpt = get_the_excerpt();
+$excerpt = preg_replace(" (\[.*?\])",'',$excerpt);
+$excerpt = strip_shortcodes($excerpt);
+$excerpt = strip_tags($excerpt);
+$excerpt = substr($excerpt, 0, 60);
+$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+$excerpt = trim(preg_replace( '/\s+/', ' ', $excerpt));
+$excerpt = $excerpt.'... <a href="'.$permalink.'">more</a>';
+return $excerpt;
+}
+
+//function for content displaying
+function get_content(){
+$permalink = get_permalink($post->ID);
+$content = get_the_content();
+$content = preg_replace(" (\[.*?\])",'',$content);
+$content = strip_shortcodes($content);
+$content = strip_tags($content);
+$content = substr($content, 0, 200);
+$content = substr($content, 0, strripos($content, " "));
+$content = trim(preg_replace( '/\s+/', ' ', $content));
+$content = $content.'... <a href="'.$permalink.'">more</a>';
+return $content;
+}
+
 
   ?>
