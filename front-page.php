@@ -129,7 +129,7 @@
       <ul>
 
         <?php rewind_posts(); ?>
-        <?php query_posts('showposts=4'); ?>
+        <?php query_posts('showposts=3'); ?>
         <?php while (have_posts()) : the_post(); ?>
           <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 

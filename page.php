@@ -24,7 +24,6 @@ echo $heading; ?></span>
   }?>
 </div>
 
-<h2 id="page-title"><?php the_title(); ?></h2>
 
 <section>
 
@@ -70,7 +69,47 @@ echo $heading; ?></span>
 </section>
 
 <aside>
+
+  <div class="search">
+    <?php get_search_form();?>
+  </div>
+
+
   <?php get_sidebar();?>
+  <div id="homepage-sidebar">
+    <div id="home-categories">
+
+      <div id="home-categories-h3"><h3>Categories</h3></div>
+
+      <ul>
+        <?php wp_list_categories( 'title_li' ); ?>
+      </ul>
+    </div>
+
+    <div id="home-widget-item">
+      <div id="home-news-h3"><h3>Latest News</h3></div>
+      <ul>
+
+        <?php rewind_posts(); ?>
+        <?php query_posts('showposts=3'); ?>
+        <?php while (have_posts()) : the_post(); ?>
+          <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+
+          <?php the_post_thumbnail('medium'); ?>
+
+          <?php the_excerpt(); ?>
+
+        <?php endwhile; ?>
+      </ul>
+
+
+    </div>
+
+
+
+  </div><!--end homepage-sidebar-->
+
+
 </aside>
 
 
