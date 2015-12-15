@@ -345,7 +345,7 @@ div#sub-navigation {
   width: 29.5%;
   float: right;
   background: #1D4272;
-  margin-bottom:1em;
+  margin: 1em 0 1em;
   text-align: center;
 
 }
@@ -1218,7 +1218,7 @@ div.menu-icon img {
 footer {
 
   display:none;
-  
+
 }
 
 
