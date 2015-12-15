@@ -310,19 +310,17 @@ color:#2995c1;
 /* Start sidebar */
 
 div#sub-navigation {
-
-  margin-top: 2%;
   width: 29.5%;
   float: right;
   background: #1D4272;
-
+margin-bottom:1em;
 }
 
 #sub-navigation ul {
 
   list-style: none;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 #sub-navigation ul li {
@@ -333,7 +331,10 @@ div#sub-navigation {
 
 #sub-navigation ul li a {
   text-decoration: none;
-  color: #EEF2DC;
+  color: #fff;
+padding:.5em;
+font-weight: 700;
+padding: .5em;
 }
 
 #sub-navigation ul li:hover {
@@ -375,6 +376,13 @@ float:left;
 }
 #menu-main .searchform {
 display:none;
+}
+footer .searchform {
+display:none;
+}
+aside .search {
+    width: 29.5%;
+    float: right;
 }
 
 /* Start homepage sidebar */
