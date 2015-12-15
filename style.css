@@ -168,16 +168,13 @@ width:20%;
 }
 
 #menu-main > li a.current {
-  background: #40286b;
+  background: #49648b;
   color: #fff;
 }
 
-#menu-main ul li:hover {
-}
-
-#menu-main ul li a:hover{
-  background: #40286b;
-  color: #fff;
+#menu-main ul li:hover a {
+  background: #49648b;
+  color: #0791bf;
 }
 
 #menu-main > li a {
@@ -185,8 +182,8 @@ width:20%;
   color: #fff;
 }
 
-#menu-main > li a:hover {
-  background: #40286b;
+#menu-main > li:hover a {
+  background: #49648b;
   color: #fff;
 }
 
@@ -195,7 +192,7 @@ width:20%;
   text-align: left;
   position: absolute;
   display: none;
-  background-color: rgba(65,44,111,0.8);
+  background-color: #49648b;
   z-index: 20;
   top: 98%;
   width:8em;
