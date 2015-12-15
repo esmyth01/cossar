@@ -17,13 +17,14 @@ echo $heading; ?></span>
 </div>
 </div><!-- end header-box -->
 <div id="main-content">
+
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
   <?php if(function_exists('bcn_display'))
   {
     bcn_display();
   }?>
 </div>
-
+ <h2><?php the_title(); ?></h2>
 
 <section>
 

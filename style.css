@@ -303,7 +303,7 @@ section a:hover {
 
 }
 
-h2 a {
+h2, h2 a {
 
     text-decoration: none;
     color: #1D4272;
