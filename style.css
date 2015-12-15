@@ -280,13 +280,17 @@ section {
 .home section {
 margin-top:2em;
 }
+section a {
+  text-decoration: none;
+  color: #2995C1;
+}
 
 section h1 {
 padding-top: 1em;
 margin-bottom: .5em;
 }
 
-section h3 {
+section h3, section h3 a {
  font-family:'Oswald', sans-serif;
   text-align: center;
   margin-bottom: 1em;
@@ -294,32 +298,18 @@ section h3 {
   color: #1D4272;
 }
 
-section a {
-
-  text-decoration: none;
-  color: #2995C1;
-
-}
-
 section a:hover {
-
   color: #1D4272;
-
 }
 
 h2, h2 a {
-
     text-decoration: none;
     color: #1D4272;
-
 }
 
 h2 a:hover {
-
 color:#2995c1;
-
 }
-
 
 
 img.alignnone, img.size-full {
