@@ -32,7 +32,7 @@
 
 
           <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-          <?php the_excerpt(); ?>
+          <?php echo get_excerpt(); ?>
 
 
         <?php endwhile; endif;  //end loop?>
@@ -50,7 +50,7 @@
 
 
           <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-          <?php the_excerpt(); ?>
+          <?php echo get_excerpt(); ?>
 
 
         <?php endwhile; endif;  //end loop?>
