@@ -277,6 +277,10 @@ section {
   float: left;
 }
 
+.home section {
+margin-top:2em;
+}
+
 section h1 {
 padding-top: 1em;
 margin-bottom: .5em;
@@ -389,6 +393,9 @@ aside p, #homepage-sidebar p {
 font-size:90%;
 }
 
+.home #homepage-sidebar {
+margin-top:2em;
+}
 
 /* End sidebar */
 
@@ -1023,7 +1030,7 @@ aside .search {
 
   }
 
-  .home-cta-content {
+ .home-cta-content {
 
   padding-top:2em;
 
@@ -1036,7 +1043,6 @@ aside .search {
   }
 
   #wrapper {
-
   margin-top:0;
   box-sizing:border-box;
   padding-bottom:3em;
@@ -1044,7 +1050,6 @@ aside .search {
   }
 
   #main-content {
-
   padding:0 1em;
   box-sizing:border-box;
 
