@@ -975,7 +975,7 @@ header, #header-inner {
 /* Start Mobile Query */
 
 
-@media all and (min-width: 320px) and (max-width: 667px) {
+@media all and (min-width: 220px) and (max-width: 667px) {
 
 #logo{
 
@@ -1218,24 +1218,10 @@ footer {
 }
 
 
-
   /* End Mobile Nav */
 
 
-
-
-
-
 /* End Mobile Query */
-
-
-
-
-
-
-
-
-
 
 
 /* End Media Queries */
