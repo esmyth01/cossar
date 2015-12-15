@@ -360,6 +360,9 @@ padding: .5em;
 
 }
 
+aside p, #homepage-sidebar p {
+font-size:90%;
+}
 
 
 /* End sidebar */
@@ -841,7 +844,9 @@ width:16%;
 max-width:80px;
 float:left;
 }
-
+aside .search {
+   display:none;
+}
 
   #wrapper, section, #home-cta, .home-cta-content, #home-projects, .home-projects-content, #home-director, #footer-nav, #footer-affiliates {
     float: none;
@@ -860,6 +865,7 @@ float:left;
   #wrapper {
   margin-top:0;
   box-sizing:border-box;
+  padding-bottom:3em;
   }
 
   #main-content {
