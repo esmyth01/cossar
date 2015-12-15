@@ -305,6 +305,17 @@ color:#2995c1;
   padding-top: .25em;
 }
 
+img.alignnone, img.size-full {
+margin-top:1em;
+}
+
+img.alignleft {
+margin-right:1em;
+}
+img.alignright {
+margin-left:1em;
+}
+
 /* End main section */
 
 /* Start sidebar */
