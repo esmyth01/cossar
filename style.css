@@ -1248,11 +1248,17 @@ div.menu-icon img {
 }
 
 footer {
-
 margin: auto;
-text-align: center;
-
 }
+
+#footer-nav {
+display:none;
+}
+
+#footer-affiliates {
+display:none;
+}
+
 ul.sub-menu {
 
   display: none;
@@ -1260,9 +1266,10 @@ ul.sub-menu {
 
 #copy {
 
-margin: auto;
-text-align: center;
-float: none;
+margin-top: 1em;
+margin-bottom:0;
+text-align: right;
+
 
 }
 
