@@ -1234,6 +1234,10 @@ margin: auto;
 text-align: center;
 
 }
+ul.sub-menu {
+
+  display: none;
+}
 
 #copy {
 
