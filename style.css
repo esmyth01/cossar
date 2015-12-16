@@ -391,9 +391,7 @@ aside p, #homepage-sidebar p {
 font-size:90%;
 }
 
-.home #homepage-sidebar {
-margin-top:2em;
-}
+
 
 /* End sidebar */
 
@@ -427,7 +425,7 @@ margin-top:2em;
 	overflow:hidden;
 }
 
-.page-parent #searchform, .page-child #searchform {
+.page-parent #searchform, .page-child #searchform, .home #searchform {
   padding-top: 1.5em;
   margin-bottom: 1.5em;
 	overflow:hidden;
@@ -453,7 +451,9 @@ display:none;
   width: 29.5%;
   margin-top: 0;
 }
-
+.home #homepage-sidebar {
+margin-top:2em;
+}
 .page-parent #homepage-sidebar, .page-child #homepage-sidebar {
   float: right;
   width: 29.5%;
