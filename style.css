@@ -1034,6 +1034,21 @@ aside .search {
 
   }
 
+  #director-image {
+
+  margin: auto;
+  float: none;
+
+
+  }
+  #director-image img {
+
+  display: block;
+  margin: auto;
+
+
+  }
+
   #wrapper {
   margin-top:0;
   box-sizing:border-box;
@@ -1215,7 +1230,16 @@ div.menu-icon img {
 
 footer {
 
-  display:none;
+margin: auto;
+text-align: center;
+
+}
+
+#copy {
+
+margin: auto;
+text-align: center;
+float: none;
 
 }
 

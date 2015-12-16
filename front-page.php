@@ -123,10 +123,17 @@
       <h3><a href="<?php echo get_permalink( get_page_by_path( 'about/staff' ) ) ?>">CoSSaR Director Mark Haselkorn</a></h3>
 
 
-      <div id="director-image"><img src="<?php bloginfo('template_directory'); ?>/images/director-thumbnail.png" alt="director" class="home-director-image"/></div>
-      <div id="director-p">
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-      </div>
+      <?php $query = new WP_Query( array( "name" => "director", "post_type" => "page" ));  ?>
+
+      <?php if ($query->have_posts()) : while($query->have_posts()) : $query->the_post(); //start loop ?>
+
+        <div id="director-image"><?php the_post_thumbnail( 'large' ); ?></div>
+        <div id="director-p"><?php the_content(); ?></div>
+
+
+
+      <?php endwhile; endif;  //end loop?>
+      <?php wp_reset_postdata() ?>
 
 
     </div>
