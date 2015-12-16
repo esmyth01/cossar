@@ -332,14 +332,24 @@ margin-left: 1em;
 
 /* Start sidebar */
 
-div#sub-navigation {
+.page aside, .blog aside {
+margin-top:1em;
+}
 
+.page-parent aside, .page-child aside {
+margin-top:0;
+}
+
+.page #sub-navigation, .blog #sub-navigation {
+display:none;
+}
+.page-parent #sub-navigation, .page-child #sub-navigation {
   width: 29.5%;
   float: right;
   background: #1D4272;
   margin: 1em 0 1em;
   text-align: center;
-
+  display:block;
 }
 
 #sub-navigation ul {
@@ -411,12 +421,16 @@ margin-top:2em;
 
 }
 
-#searchform {
+.page #searchform, .blog #searchform  {
+  padding-top: 0;
+  margin-bottom: 1.5em;
+	overflow:hidden;
+}
 
+.page-parent #searchform, .page-child #searchform {
   padding-top: 1.5em;
   margin-bottom: 1.5em;
 	overflow:hidden;
-
 }
 
 #menu-main .searchform {
@@ -433,12 +447,17 @@ display:none;
 
 
 /* Start homepage sidebar */
-#homepage-sidebar {
 
+.page #homepage-sidebar, .blog #homepage-sidebar {
+  float: right;
+  width: 29.5%;
+  margin-top: 0;
+}
+
+.page-parent #homepage-sidebar, .page-child #homepage-sidebar {
   float: right;
   width: 29.5%;
   margin-top: 1em;
-
 }
 
 #homepage-sidebar ul {
