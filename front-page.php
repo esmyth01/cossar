@@ -18,7 +18,6 @@
     <?php endwhile; endif;  //end loop?>
 
 
-
     <div id="home-cta">
 
 
