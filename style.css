@@ -809,6 +809,11 @@ max-width:100%;
 
 /*Start index.php styles*/
 
+.post-excerpt {
+margin-bottom:2em;
+overflow:hidden;
+}
+
 .post-excerpt h2 {
 
   margin-bottom: .125em;
@@ -837,6 +842,10 @@ margin-bottom: .125em;
 float: left;
 clear: both;
 
+}
+
+.wp-post-image {
+ width: 100%;
 }
 
 .post-excerpt a {
