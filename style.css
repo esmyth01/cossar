@@ -6,27 +6,20 @@ Author: Evan Smyth, Kim Stewart, Nectar Shakir, Brian Baker
 Author URI: http://52.88.123.0
 Description: This is the theme for our itc210 wordpress course at Seattle Central College
 Version: 1.0
-
 Plugins used:
 Social Media and Share Icons (Ultimate Social Media) - https://wordpress.org/plugins/ultimate-social-media-icons/
 Used for Facebook, Twitter, and RSS icons
 When clicked, view Facebook or Twitter, subscribe to RSS
-
 Simple Membership - https://wordpress.org/plugins/simple-membership/
 Used to protect content behind a membership login
 Used here to restrict access to certain content to speficic users only
-
 Contact Form 7 - https://wordpress.org/plugins/contact-form-7/
 Manage multiple contact forms, supports CAPTCHA and Akismet spam filtering
 Used to provide a contact form
-
 Breadcrumbs - https://wordpress.org/plugins/breadcrumb-navxt/
 Makes it easy to navigate back to previous pages
-
 Flexslider - https://wordpress.org/plugins/ml-slider/
 A versatile flexslider that displays a rotating slide show of images on the front page
-
-
 */
 
 
@@ -332,15 +325,16 @@ margin-left: 1em;
 
 /* Start sidebar */
 
-.page aside, .blog aside {
+.category aside, .page aside, .blog aside {
 margin-top:1em;
+
 }
 
 .page-parent aside, .page-child aside {
 margin-top:0;
 }
 
-.page #sub-navigation, .blog #sub-navigation {
+.page #sub-navigation, .blog #sub-navigation, .category #sub-navigation {
 display:none;
 }
 .page-parent #sub-navigation, .page-child #sub-navigation {
@@ -419,7 +413,7 @@ font-size:90%;
 
 }
 
-.page #searchform, .blog #searchform  {
+.category #searchform, .page #searchform, .blog #searchform  {
   padding-top: 0;
   margin-bottom: 1.5em;
 	overflow:hidden;
@@ -446,7 +440,7 @@ display:none;
 
 /* Start homepage sidebar */
 
-.page #homepage-sidebar, .blog #homepage-sidebar {
+.category #homepage-sidebar, .page #homepage-sidebar, .blog #homepage-sidebar {
   float: right;
   width: 29.5%;
   margin-top: 0;
@@ -810,8 +804,8 @@ max-width:100%;
 /*Start index.php styles*/
 
 .post-excerpt {
-margin-bottom:2em;
-overflow:hidden;
+margin-bottom: 2em;
+overflow: hidden;
 }
 
 .post-excerpt h2 {
@@ -844,9 +838,6 @@ clear: both;
 
 }
 
-.wp-post-image {
- width: 100%;
-}
 
 .post-excerpt a {
 
@@ -1281,6 +1272,11 @@ text-align: right;
 
 
 }
+
+.wp-post-image {
+ width: 100%;
+}
+
 
 
   /* End Mobile Nav */
