@@ -31,7 +31,7 @@
 <header>
 <div id="header-inner">
   <div id="logo">
-<a href="http://52.88.123.0"><img src="<?php bloginfo('template_directory'); ?>/images/logo4.png" alt="logo" class="logo"/></a>
+<a href="http://depts.washington.edu/cossar/wp/"><img src="<?php bloginfo('template_directory'); ?>/images/logo4.png" alt="logo" class="logo"/></a>
   </div>
 
 </div> <!-- end header-inner -->

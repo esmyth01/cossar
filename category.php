@@ -19,7 +19,7 @@ get_header(); ?>
     }?>
 </div>
 
- <h2><?php $pagename = ucfirst($pagename); echo $pagename;?></h2>
+ <h2>Blog</h2>
 <section>
 
   <!-- loop to pull blog content -->

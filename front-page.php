@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <div id="flexslider">
-<?php echo do_shortcode('[recent_post_slider design="design-2" limit="4"]'); ?>
+<?php echo do_shortcode('[recent_post_slider design="design-2" limit="4" autoplay="true"
+ autoplay_interval="5000" speed="1000"]'); ?>
   <!-- ?php wd_slider(2); ?> -->
 
 </div>
