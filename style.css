@@ -1093,7 +1093,7 @@ aside .search {
 
   }
 
-  div#sub-navigation, #homepage-sidebar  {
+  div#sub-navigation, #homepage-sidebar, .page-parent #sub-navigation, .page-child #sub-navigation, .blog #sub-navigation, .category #sub-navigation  {
 
     display: none;
 
@@ -1277,7 +1277,7 @@ margin-top: 1em;
 margin-bottom:0;
 margin: auto;
 float: none;
-
+text-align:center;
 }
 
 .wp-post-image {
