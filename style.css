@@ -838,6 +838,12 @@ clear: both;
 
 }
 
+.blog .post-excerpt img {
+width:100%;
+float: left;
+clear: both;
+
+}
 
 .post-excerpt a {
 
